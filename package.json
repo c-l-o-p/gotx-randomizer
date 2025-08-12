@@ -19,7 +19,7 @@
     "unloadEnv": "unset $(grep -v '^#' .env | sed -E 's/(.*)=.*/\\1/' | xargs)"
   },
   "dependencies": {
-    "@babel/runtime": "^7.24.1",
+    "@babel/runtime": "^7.27.6",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
     "highcharts": "^11.4.0",
